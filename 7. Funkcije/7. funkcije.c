@@ -3,8 +3,9 @@
 #include <math.h>
 
 void ispis() {
-	printf("Hello world\n");
+	printf("Hello World\n");
 
+	// razmisli dal treba pokazati return ili ne
 }
 
 int saberi(int broj1, int broj2) {
@@ -23,6 +24,8 @@ int faktorijel(int broj) {
 	return proizvod;
 }
 
+
+// tek kroz zadatak
 int zbirCifara(int broj) {
 	int suma = 0;
 	int cifra;
@@ -39,25 +42,31 @@ int zbirCifara(int broj) {
 	return suma;
 }
 
-int main() {
+void main() {
+
+	// 3 tipa
+
+	// void - funkcije koje samo nesto izvrsavaju, obavljaju neki posao za nas
+	// int  - funkcije koje nesto racunaju i zanima nas sta su izracunale
+	// funkcije provere - one stoje u ifu i proveracaju dal nesto JESTE ili NIJE
 
 
-	/*ispis();
 	ispis();
-	ispis();*/
+	ispis();
+	ispis();
 
 
-	/*int a = 5;
+	int a = 5;
 	int b = 3;
 
 	int c = saberi(a,b);
 
-	printf("c = %d", c);*/
+	printf("c = %d", c);
 
 
 
 
-	/*int a = 5, b = 3, c = 10;
+	int a = 5, b = 3, c = 10;
 	int rezultat;
 
 	// rezultat = 5! + 3! + 10!
@@ -65,10 +74,12 @@ int main() {
 	rezultat = faktorijel(a) + faktorijel(b) + faktorijel(c);
 
 	printf("rezultat = %d", faktorijel(4) );
-	*/
+	
 
 
 
+	// Korisnik unosi 2 broja, 
+	// program ispise sve brojeve u tom intervalu ciji je zbir cifara 7
 
 	int broj1, broj2;
 
@@ -85,8 +96,5 @@ int main() {
 
 
 
-
 	printf("\n\n");
-	system("pause");
-	return 0;
 }

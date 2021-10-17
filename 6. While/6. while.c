@@ -3,13 +3,44 @@
 
 int main() {
 
-	/*int broj = 0;
+	int broj = 0;
 
 	while ( broj != 5 ) {
 		printf("Unesite broj 5: ");
 		scanf("%d", &broj);
+	}
 
-	}*/
+
+
+	do {
+		printf("Unesite broj 5: ");
+		scanf("%d", &broj);
+	} while (broj != 5);
+
+
+
+
+	int proizvod = 1;
+	int broj;
+
+	while (1) {
+		printf("Unesite broj: ");
+		scanf("%d", &broj);
+
+		if (broj == 0) {
+			break;
+		}
+
+		proizvod = proizvod * broj;
+	}
+
+	printf("\nProizvod unetih brojeva je: %d", proizvod);
+
+
+
+
+
+
 
 	/*int n = 1;
 	int cifra;*/
@@ -77,7 +108,9 @@ while (n != 0) {
 
 printf("Broj ima %d cifara", brojac);*/
 
-	int n;
+
+
+	/*int n;
 	int brojac = 0;
 	int suma = 0;
 	int cifra;
@@ -96,7 +129,7 @@ printf("Broj ima %d cifara", brojac);*/
 
 	aritmeticka = (float)suma / brojac;
 
-	printf("Aritmeticka sredina cifara je: %.2f", aritmeticka);
+	printf("Aritmeticka sredina cifara je: %.2f", aritmeticka);*/
 
 	printf("\n\n");
 	system("pause");

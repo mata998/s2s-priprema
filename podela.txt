@@ -1,0 +1,17 @@
+printf    	- mata
+operacije	- mata
+scanf		- mata
+if		- mata
+for		- stefan
+while		- stefan
+funkcije   	- stefan
+pokazivaci 	- mata
+povecanje  	- mata
+nizovi    	- stefan
+strukture	- stefan
+
+
+
+
+
+

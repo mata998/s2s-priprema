@@ -15,7 +15,9 @@ int main() {
 
 	*pok = 10;
 
+
 	printf("\n\n a = %d", a);
+
 
 	printf("\n\n");
 	system("pause");

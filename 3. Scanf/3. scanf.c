@@ -1,15 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main() {
-	/*
+void main() {
+	
 	int broj1, broj2;
 
 	printf("Unesite 2 broja: ");
 	scanf("%d %d", &broj1, &broj2); // OBAVEZNO & pre imena promenljive
 
 	printf("Uneli ste: %d %d", broj1, broj2);
-	*/
+	
 
 	int poluprecnik;
 	float povrsina, obim;
@@ -27,6 +27,4 @@ int main() {
 
 
 	printf("\n\n");
-	system("pause");
-	return 0;
 }

@@ -1,8 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <math.h>
 
-int main() {
+void main() {
 	int a = 10, b = 3;
 	int c;
 
@@ -10,8 +9,15 @@ int main() {
 	c = a + b;
 	printf("\nc = %d", c);
 
+	c = c + a;
+	//c += a;
+	printf("\nc = %d", c);
+
+
 	c = a * b;
 	printf("\nc = %d", c);
+
+	
 
 	float decimalni;
 
@@ -26,20 +32,7 @@ int main() {
 	printf("\n\na = %d", a++);
 	printf("\na = %d", a);
 
-	float dec = 5.3;
-
-	printf("\n\nZaokruzivanje na manje dec = %f", floor(dec));
-	printf("\n\nZaokruzivanje na vece dec = %f", ceil(dec));
-
-	printf("\n\ndec = %f", dec);
-
-	int broj1 = 2, broj2 = 3;
-	int rez;
-
-	rez = pow(broj1, broj2);
-
-	printf("\n\nrez = %d", rez);
-
+	
 
 	a = 10;
 	b = 3;
@@ -49,6 +42,4 @@ int main() {
 
 
 	printf("\n\n");
-	system("pause");
-	return 0;
 }

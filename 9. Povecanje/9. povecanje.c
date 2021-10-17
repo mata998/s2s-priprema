@@ -5,7 +5,7 @@ void povecanje(int a) {
 
 	a = a + 1;
 
-	printf("\n\nVrednost u funkciji a = %d", a);
+	//printf("\n\nVrednost u funkciji a = %d", a);
 }
 
 void pravoPovecanje(int* pok) {
@@ -24,22 +24,22 @@ void zamena(int* a, int* b) {
 }
 
 int main() {
-	/*int a = 5;
+	int a = 5;
 
 	printf("Vrednost u mainu pre funkcije a = %d", a);
 
-	//povecanje(a);
+	povecanje(a);
 
-	pravoPovecanje(&a);
+	//pravoPovecanje(&a);
 
 	printf("\n\nVrednost u mainu posle funkcije a = %d", a);
-	*/
+	
 
-	int a = 5, b = 10;
+	/*int a = 5, b = 10;
 
 	zamena(&a, &b);
 
-	printf("a = %d   b = %d", a, b);
+	printf("a = %d   b = %d", a, b);*/
 
 
 

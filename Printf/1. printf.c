@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
 void main() {
 
 	printf("Hello World\n");
@@ -21,9 +22,11 @@ void main() {
 	char karakter = 'a';	// %c  OBAVEZNO POD JEDNIM NAVODNIKOM
 	float decimalni = 5.6;	// %f
 	double decimalni2 = 10.6; // %lf
+	const int konstanta = 5;
 
 	printf("\n\nVrednost promenljive ceoBroj = %d", ceoBroj);
 	printf("\nkarakter = %c   decimalni = %.2f", karakter, decimalni);
+
 	// .2 je da u ispisu zaokruzi na 2 decimale
 
 
@@ -31,5 +34,4 @@ void main() {
 
 
 	printf("\n\n");
-	system("pause");
 }
