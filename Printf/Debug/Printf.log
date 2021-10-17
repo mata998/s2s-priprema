@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Printf.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  1. printf.c
+c:\users\matej\source\repos\printf\printf\1. printf.c(34): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\matej\source\repos\printf\printf\1. printf.c(22): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Printf.vcxproj -> C:\Users\matej\source\repos\Printf\Debug\1. Printf.exe
